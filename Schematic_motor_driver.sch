@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -928,7 +928,7 @@ filled</description>
 <parts>
 <part name="U1" library="International_Rectifier_By_element14_Batch_1" deviceset="IR2104PBF" device=""/>
 <part name="U2" library="International_Rectifier_By_element14_Batch_1" deviceset="IR2104PBF" device=""/>
-<part name="LOGICINPUT" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" value="4p-2.54"/>
+<part name="INPUT" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" value="4p-2.54"/>
 <part name="POWER" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-3.5)" device="" value="GREEN-2P-3.5"/>
 <part name="D1" library="adafruit" deviceset="1N4004" device=""/>
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
@@ -963,7 +963,7 @@ filled</description>
 <instances>
 <instance part="U1" gate="A" x="53.34" y="88.9"/>
 <instance part="U2" gate="A" x="53.34" y="39.37"/>
-<instance part="LOGICINPUT" gate="G$1" x="1.27" y="66.04"/>
+<instance part="INPUT" gate="G$1" x="1.27" y="66.04"/>
 <instance part="POWER" gate="G$1" x="1.27" y="87.63"/>
 <instance part="D1" gate="1" x="22.86" y="95.25" rot="R270"/>
 <instance part="D2" gate="1" x="22.86" y="46.99" rot="R270"/>
@@ -996,7 +996,7 @@ filled</description>
 <nets>
 <net name="IN1" class="0">
 <segment>
-<pinref part="LOGICINPUT" gate="G$1" pin="P$1"/>
+<pinref part="INPUT" gate="G$1" pin="P$1"/>
 <wire x1="-6.35" y1="69.85" x2="-11.43" y2="69.85" width="0.1524" layer="91"/>
 <label x="-11.43" y="69.85" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1008,7 +1008,7 @@ filled</description>
 </net>
 <net name="IN2" class="0">
 <segment>
-<pinref part="LOGICINPUT" gate="G$1" pin="P$2"/>
+<pinref part="INPUT" gate="G$1" pin="P$2"/>
 <wire x1="-6.35" y1="67.31" x2="-11.43" y2="67.31" width="0.1524" layer="91"/>
 <label x="-11.43" y="67.31" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1020,7 +1020,7 @@ filled</description>
 </net>
 <net name="PWM" class="0">
 <segment>
-<pinref part="LOGICINPUT" gate="G$1" pin="P$3"/>
+<pinref part="INPUT" gate="G$1" pin="P$3"/>
 <wire x1="-11.43" y1="64.77" x2="-6.35" y2="64.77" width="0.1524" layer="91"/>
 <label x="-11.43" y="64.77" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -1037,7 +1037,7 @@ filled</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="LOGICINPUT" gate="G$1" pin="P$4"/>
+<pinref part="INPUT" gate="G$1" pin="P$4"/>
 <wire x1="-6.35" y1="62.23" x2="-11.43" y2="62.23" width="0.1524" layer="91"/>
 <label x="-11.43" y="62.23" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
