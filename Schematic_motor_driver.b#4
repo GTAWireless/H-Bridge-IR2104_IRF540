@@ -169,15 +169,15 @@
 <plain>
 <text x="26.465" y="40.8575" size="1.016" layer="25" font="vector" ratio="12" rot="SR0">VCC</text>
 <text x="33.29125" y="40.8575" size="1.016" layer="25" font="vector" ratio="12" rot="SR0">GND</text>
-<text x="8.17875" y="47.715" size="1.6764" layer="25" font="vector" ratio="17" rot="SR0" align="center">Musafir</text>
+<text x="9.13125" y="47.87375" size="1.6764" layer="25" font="vector" ratio="17" rot="SR0" align="center">Musafir</text>
 <text x="27.735" y="0.635" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">IN1</text>
 <text x="25.195" y="0.635" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">IN2</text>
 <text x="22.655" y="0.3175" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">PWM</text>
 <text x="20.115" y="0.3175" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">GND</text>
 <text x="14.91" y="31.685" size="1.778" layer="26" font="vector" ratio="12" rot="MR180">ejaadtech.com</text>
-<text x="8.8925" y="55.0325" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">Motor
+<text x="6.9875" y="45.5075" size="1.27" layer="25" font="vector" ratio="17" distance="10" rot="SR0" align="center">Motor
 Board</text>
-<text x="16.3075" y="55.62" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v1</text>
+<text x="12.02125" y="45.61875" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v2</text>
 <text x="46.93" y="33.8875" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">MM
 ZP</text>
 <text x="27.53" y="58.335" size="1.016" layer="26" font="vector" ratio="17" rot="SMR180" align="center">ejaadtech.com</text>

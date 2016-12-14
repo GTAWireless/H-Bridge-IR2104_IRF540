@@ -175,9 +175,9 @@
 <text x="22.655" y="0.3175" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">PWM</text>
 <text x="20.115" y="0.3175" size="1.016" layer="25" font="vector" ratio="12" rot="SR90">GND</text>
 <text x="14.91" y="31.685" size="1.778" layer="26" font="vector" ratio="12" rot="MR180">ejaadtech.com</text>
-<text x="7.46375" y="45.5075" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">Motor
+<text x="6.9875" y="45.5075" size="1.27" layer="25" font="vector" ratio="17" distance="10" rot="SR0" align="center">Motor
 Board</text>
-<text x="11.2275" y="45.46" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v2</text>
+<text x="12.02125" y="45.61875" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v2</text>
 <text x="46.93" y="33.8875" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">MM
 ZP</text>
 <text x="27.53" y="58.335" size="1.016" layer="26" font="vector" ratio="17" rot="SMR180" align="center">ejaadtech.com</text>
@@ -741,7 +741,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="63J7843" x="40.5875" y="14.1675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="8638748" x="40.5875" y="14.1675" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="PDIP" x="40.5875" y="14.1675" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.3325" y="3.4106" size="1.016" layer="25" font="vector" ratio="12" rot="SR90"/>
+<attribute name="NAME" x="43.445" y="7.5381" size="1.016" layer="25" font="vector" ratio="12" rot="SR90"/>
 </element>
 <element name="U2" library="International_Rectifier_By_element14_Batch_1" package="DIP254P762X533-8" value="IR2104PBF" x="22.1375" y="15.4475" smashed="yes" rot="R90">
 <attribute name="SUPPLIER" value="INTERNATIONAL RECTIFIER" x="22.1375" y="15.4475" size="1.778" layer="27" rot="R90" display="off"/>
@@ -749,7 +749,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="63J7843" x="22.1375" y="15.4475" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="8638748" x="22.1375" y="15.4475" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="PDIP" x="22.1375" y="15.4475" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.2475" y="5.6431" size="1.016" layer="25" font="vector" ratio="12" rot="SR90"/>
+<attribute name="NAME" x="24.995" y="13.42185" size="1.016" layer="25" font="vector" ratio="12" rot="SR90"/>
 </element>
 <element name="C3" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="100uf" x="39.8925" y="46.5725" smashed="yes" rot="R90">
 <attribute name="MPN" value="KS 100uF/16V" x="39.8925" y="46.5725" size="1.778" layer="27" rot="R90" display="off"/>
@@ -777,7 +777,7 @@ design rules under a new name.</description>
 </element>
 <element name="C6" library="Seeed-Capacitor-2016" package="PC-D5.3MM" value="100uf" x="14.3875" y="3.0625" smashed="yes" rot="R270">
 <attribute name="MPN" value="KS 100uF/16V" x="14.3875" y="3.0625" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.8335" y="7.62" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="NAME" x="16.1925" y="5.19725" size="1.016" layer="25" font="vector" ratio="12"/>
 </element>
 <element name="POWER" library="Seeed-Connector -2016" package="H2-5.0-10.5X8.0MM" value="GREEN-2P-5.0" x="31" y="46.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.7" y="42.43" size="0.889" layer="25" ratio="11"/>
