@@ -1018,7 +1018,7 @@ filled</description>
 <part name="C6" library="Seeed-Capacitor-2016" deviceset="DIP-ALUMINUM-100UF-16V(D5-H7MM)" device="" value="100uf"/>
 <part name="POWER" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
 <part name="MOTOR" library="Seeed-Connector -2016" deviceset="SCREW-TERMINAL-GREEN(2P-5.0)" device="" value="GREEN-2P-5.0"/>
-<part name="PWRJMP" library="Seeed-OPL-Connector" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
+<part name="JMP" library="Seeed-OPL-Connector" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
 </parts>
 <sheets>
 <sheet>
@@ -1053,7 +1053,7 @@ filled</description>
 <instance part="C6" gate="G$1" x="-59.69" y="87.63" rot="R270"/>
 <instance part="POWER" gate="G$1" x="11.43" y="87.63"/>
 <instance part="MOTOR" gate="G$1" x="138.43" y="67.31"/>
-<instance part="PWRJMP" gate="G$1" x="22.86" y="106.68"/>
+<instance part="JMP" gate="G$1" x="22.86" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -1144,14 +1144,14 @@ filled</description>
 <wire x1="-27.94" y1="77.47" x2="-38.1" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="77.47" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
 <label x="-33.02" y="77.47" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
+<wire x1="-38.1" y1="77.47" x2="-49.53" y2="77.47" width="0.1524" layer="91"/>
+<junction x="-38.1" y="77.47"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="-49.53" y1="77.47" x2="-49.53" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="-"/>
 <wire x1="-59.69" y1="83.82" x2="-59.69" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="-59.69" y1="77.47" x2="-49.53" y2="77.47" width="0.1524" layer="91"/>
-<label x="-58.42" y="76.2" size="1.778" layer="95" rot="R180"/>
+<junction x="-49.53" y="77.47"/>
 </segment>
 </net>
 <net name="POWER" class="0">
@@ -1190,9 +1190,17 @@ filled</description>
 <wire x1="-27.94" y1="99.06" x2="-38.1" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="99.06" x2="-38.1" y2="91.44" width="0.1524" layer="91"/>
 <label x="-33.02" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="-49.53" y1="91.44" x2="-49.53" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-38.1" y="99.06"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="-49.53" y1="99.06" x2="-38.1" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-59.69" y1="91.44" x2="-59.69" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-59.69" y1="99.06" x2="-49.53" y2="99.06" width="0.1524" layer="91"/>
+<junction x="-49.53" y="99.06"/>
 </segment>
 <segment>
-<pinref part="PWRJMP" gate="G$1" pin="1"/>
+<pinref part="JMP" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="109.22" x2="7.62" y2="109.22" width="0.1524" layer="91"/>
 <label x="-2.54" y="109.22" size="1.778" layer="95"/>
 </segment>
@@ -1408,17 +1416,9 @@ filled</description>
 <label x="33.02" y="50.8" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="PWRJMP" gate="G$1" pin="2"/>
+<pinref part="JMP" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="104.14" x2="7.62" y2="104.14" width="0.1524" layer="91"/>
 <label x="-10.16" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="+"/>
-<wire x1="-49.53" y1="91.44" x2="-49.53" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-59.69" y1="99.06" x2="-49.53" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="+"/>
-<wire x1="-59.69" y1="91.44" x2="-59.69" y2="99.06" width="0.1524" layer="91"/>
-<label x="-55.88" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
